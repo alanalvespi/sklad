@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id_provider: MyString
+  name_provider: MyString
+  total_amount: 1.5
+
+two:
+  id_provider: MyString
+  name_provider: MyString
+  total_amount: 1.5

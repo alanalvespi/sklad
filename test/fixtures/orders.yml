@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  c_product_id: 1
+  c_bill_id: MyString
+  quantity: 1
+  percent_ship: 1.5
+  price_pz: 1.5
+  pv_pz: 1.5
+  subtotal_product: 1.5
+  subtotal_pv: 1.5
+  c_status_order_id: 1
+  partner_name: MyString
+  c_product_name: MyString
+  comments: MyString
+
+two:
+  c_product_id: 1
+  c_bill_id: MyString
+  quantity: 1
+  percent_ship: 1.5
+  price_pz: 1.5
+  pv_pz: 1.5
+  subtotal_product: 1.5
+  subtotal_pv: 1.5
+  c_status_order_id: 1
+  partner_name: MyString
+  c_product_name: MyString
+  comments: MyString

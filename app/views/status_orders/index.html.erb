@@ -1,0 +1,27 @@
+<h1>Listing status_orders</h1>
+
+<table>
+  <tr>
+    <th>Id status</th>
+    <th>Description</th>
+    <th>Notes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @status_orders.each do |status_order| %>
+  <tr>
+    <td><%= status_order.id_status %></td>
+    <td><%= status_order.description %></td>
+    <td><%= status_order.notes %></td>
+    <td><%= link_to 'Show', status_order %></td>
+    <td><%= link_to 'Edit', edit_status_order_path(status_order) %></td>
+    <td><%= link_to 'Destroy', status_order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Status order', new_status_order_path %>

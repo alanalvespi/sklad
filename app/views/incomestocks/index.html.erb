@@ -1,0 +1,33 @@
+<h1>Listing incomestocks</h1>
+
+<table>
+  <tr>
+    <th>Id income stock</th>
+    <th>Product number</th>
+    <th>Product name</th>
+    <th>Product price</th>
+    <th>Product pv</th>
+    <th>Quantity</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @incomestocks.each do |incomestock| %>
+  <tr>
+    <td><%= incomestock.id_income_stock %></td>
+    <td><%= incomestock.product_number %></td>
+    <td><%= incomestock.product_name %></td>
+    <td><%= incomestock.product_price %></td>
+    <td><%= incomestock.product_pv %></td>
+    <td><%= incomestock.quantity %></td>
+    <td><%= link_to 'Show', incomestock %></td>
+    <td><%= link_to 'Edit', edit_incomestock_path(incomestock) %></td>
+    <td><%= link_to 'Destroy', incomestock, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Incomestock', new_incomestock_path %>

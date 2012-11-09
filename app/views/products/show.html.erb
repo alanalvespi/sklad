@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id product:</b>
+  <%= @product.id_product %>
+</p>
+
+<p>
+  <b>Product name:</b>
+  <%= @product.product_name %>
+</p>
+
+<p>
+  <b>Bar code:</b>
+  <%= @product.bar_code %>
+</p>
+
+<p>
+  <b>Client price:</b>
+  <%= @product.client_price %>
+</p>
+
+<p>
+  <b>Partner price:</b>
+  <%= @product.partner_price %>
+</p>
+
+<p>
+  <b>Pv:</b>
+  <%= @product.pv %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @product.description %>
+</p>
+
+<p>
+  <b>Contain:</b>
+  <%= @product.contain %>
+</p>
+
+<p>
+  <b>Measure:</b>
+  <%= @product.measure %>
+</p>
+
+<p>
+  <b>C category:</b>
+  <%= @product.c_category_id %>
+</p>
+
+<p>
+  <b>Instock:</b>
+  <%= @product.inStock %>
+</p>
+
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

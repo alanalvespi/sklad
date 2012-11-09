@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id bill:</b>
+  <%= @bill.id_bill %>
+</p>
+
+<p>
+  <b>Date bill:</b>
+  <%= @bill.date_bill %>
+</p>
+
+<p>
+  <b>Total order:</b>
+  <%= @bill.total_order %>
+</p>
+
+<p>
+  <b>Total pv:</b>
+  <%= @bill.total_pv %>
+</p>
+
+<p>
+  <b>C partner:</b>
+  <%= @bill.c_partner_id %>
+</p>
+
+<p>
+  <b>Partner name:</b>
+  <%= @bill.partner_name %>
+</p>
+
+<p>
+  <b>Bill status:</b>
+  <%= @bill.bill_status %>
+</p>
+
+
+<%= link_to 'Edit', edit_bill_path(@bill) %> |
+<%= link_to 'Back', bills_path %>

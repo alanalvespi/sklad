@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id_partner: MyString
+  partner_name: MyString
+  telephone: MyString
+  email: MyString
+
+two:
+  id_partner: MyString
+  partner_name: MyString
+  telephone: MyString
+  email: MyString

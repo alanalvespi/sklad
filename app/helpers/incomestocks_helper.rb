@@ -1,0 +1,2 @@
+module IncomestocksHelper
+end

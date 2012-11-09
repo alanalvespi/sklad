@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id_product: MyString
+  product_name: MyString
+  bar_code: MyString
+  client_price: 1.5
+  partner_price: 1.5
+  pv: 1.5
+  description: MyString
+  contain: MyString
+  measure: MyString
+  c_category_id: 1
+  inStock: 1
+
+two:
+  id_product: MyString
+  product_name: MyString
+  bar_code: MyString
+  client_price: 1.5
+  partner_price: 1.5
+  pv: 1.5
+  description: MyString
+  contain: MyString
+  measure: MyString
+  c_category_id: 1
+  inStock: 1

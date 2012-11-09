@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id_income_stock: MyString
+  product_number: MyString
+  product_name: MyString
+  product_price: 1.5
+  product_pv: 1.5
+  quantity: 1
+
+two:
+  id_income_stock: MyString
+  product_number: MyString
+  product_name: MyString
+  product_price: 1.5
+  product_pv: 1.5
+  quantity: 1

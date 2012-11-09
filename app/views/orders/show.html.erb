@@ -1,0 +1,65 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>C product:</b>
+  <%= @order.c_product_id %>
+</p>
+
+<p>
+  <b>C bill:</b>
+  <%= @order.c_bill_id %>
+</p>
+
+<p>
+  <b>Quantity:</b>
+  <%= @order.quantity %>
+</p>
+
+<p>
+  <b>Percent ship:</b>
+  <%= @order.percent_ship %>
+</p>
+
+<p>
+  <b>Price pz:</b>
+  <%= @order.price_pz %>
+</p>
+
+<p>
+  <b>Pv pz:</b>
+  <%= @order.pv_pz %>
+</p>
+
+<p>
+  <b>Subtotal product:</b>
+  <%= @order.subtotal_product %>
+</p>
+
+<p>
+  <b>Subtotal pv:</b>
+  <%= @order.subtotal_pv %>
+</p>
+
+<p>
+  <b>C status order:</b>
+  <%= @order.c_status_order_id %>
+</p>
+
+<p>
+  <b>Partner name:</b>
+  <%= @order.partner_name %>
+</p>
+
+<p>
+  <b>C product name:</b>
+  <%= @order.c_product_name %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @order.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

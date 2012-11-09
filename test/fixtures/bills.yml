@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id_bill: MyString
+  date_bill: 2012-10-21
+  total_order: 1.5
+  total_pv: 1.5
+  c_partner_id: MyString
+  partner_name: MyString
+  bill_status: 1
+
+two:
+  id_bill: MyString
+  date_bill: 2012-10-21
+  total_order: 1.5
+  total_pv: 1.5
+  c_partner_id: MyString
+  partner_name: MyString
+  bill_status: 1

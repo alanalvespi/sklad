@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id income stock:</b>
+  <%= @incomestock.id_income_stock %>
+</p>
+
+<p>
+  <b>Product number:</b>
+  <%= @incomestock.product_number %>
+</p>
+
+<p>
+  <b>Product name:</b>
+  <%= @incomestock.product_name %>
+</p>
+
+<p>
+  <b>Product price:</b>
+  <%= @incomestock.product_price %>
+</p>
+
+<p>
+  <b>Product pv:</b>
+  <%= @incomestock.product_pv %>
+</p>
+
+<p>
+  <b>Quantity:</b>
+  <%= @incomestock.quantity %>
+</p>
+
+
+<%= link_to 'Edit', edit_incomestock_path(@incomestock) %> |
+<%= link_to 'Back', incomestocks_path %>
